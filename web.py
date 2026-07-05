@@ -124,7 +124,7 @@ else:
     elif page == "寄信":
         st.header("✉️ 寄信")
 
-        receiver = st.text_input("收件者 Email")
+        receiver = st.text_input("收件者 帳號")
         subject = st.text_input("主旨")
         body = st.text_area("內容", height=200)
 
