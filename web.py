@@ -90,7 +90,7 @@ if st.session_state.user is None:
         if st.button("註冊"):
             try:
                 register(email, password)
-                st.success("註冊成功，請去信箱驗證")
+                
             except Exception as e:
                 st.error(f"註冊失敗：{e}")
 
